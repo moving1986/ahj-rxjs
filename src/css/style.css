@@ -1,0 +1,20 @@
+body {
+    color: #999;
+}
+
+.messWidget {
+    width: 800px;
+    margin: 0 auto;
+    border: 2px solid rgb(56, 54, 54)
+}
+.messItem {
+    display: flex;
+    border-bottom: 1px solid rgb(56, 54, 54);
+    gap: 20px;
+}
+.messEmail, .messSubject, .messDate {
+    flex: 1;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+}
